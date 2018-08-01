@@ -1,0 +1,25 @@
+
+<aside class="lt_aside_nav content mCustomScrollbar">
+    <h2><a href="{% url 'backweb:index' %}">首页</a></h2>
+    <ul>
+        <li>
+            <dl>
+                <dt>我的笔记</dt>
+        <!--当前链接则添加class:active-->
+                <dd><a href="{% url 'backweb:index' %}" class="active">文章列表</a></dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>关于我</dt>
+                <dd><a href="order_list.html">个人信息</a></dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>用户管理</dt>
+                <dd><a href="{% url 'backweb:change_pwd' %}">修改密码</a></dd>
+            </dl>
+        </li>
+    </ul>
+</aside>

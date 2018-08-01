@@ -21,4 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include(('app.urls', 'app'), namespace='blog')),
     path('backweb/', include(('backweb.urls', 'backweb'), namespace='backweb')),
+    #  编辑器配置
+    path(r'^ueditor/',include('DjangoUeditor.urls' ))
+
 ]
