@@ -129,6 +129,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
-ARTICLE_NUMBER = 1
+ARTICLE_NUMBER = 10
 
 LOGIN_URL = '/backweb/login/'

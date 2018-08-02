@@ -78,12 +78,12 @@
                     <li>
                         <span class="item_name" style="width:120px;">密码：</span>
                         <input type="password" class="textbox textbox_295" name="passwd1" placeholder="密码..."/>
-                        <span class="errorTips">{{ error.passwd1 }}</span>
+                        <span class="errorTips">{{ error.passwd1|striptags }}</span>
                     </li>
                     <li>
                         <span class="item_name" style="width:120px;">确认密码：</span>
                         <input type="password" class="textbox textbox_295" name="passwd2" placeholder="确认密码..."/>
-                        <span class="errorTips">{{ error.passwd2 }}</span>
+                        <span class="errorTips">{{ error.passwd2|striptags }}</span>
                     </li>
                     <li>
                         <span class="item_name" style="width:120px;"></span>

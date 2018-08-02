@@ -73,12 +73,12 @@
                     <li>
                         <span class="item_name" style="width:120px;">文章名称：</span>
                         <input type="text" class="textbox textbox_295" name="title" placeholder="文章名称..." value="{{ article.title }}"/>
-                        <span class="errorTips">{{ error.title }}</span>
+                        <span class="errorTips">{{ error.title|striptags }}</span>
                     </li>
                     <li>
                         <span class="item_name" style="width:120px;">内容描述：</span>
                         <input type="text" class="textbox textbox_295" name="desc" placeholder="描述..." value="{{ article.desc }}"/>
-                        <span class="errorTips">{{ error.desc }}</span>
+                        <span class="errorTips">{{ error.desc|striptags }}</span>
                     </li>
                     <li>
                         <span class="item_name" style="width:120px;">前后端分类：</span>
@@ -94,7 +94,7 @@
                         <select class="select" name="types" id="select_lang">
                             <option>选择分类</option>
                         </select>
-                        <span class="errorTips">{{ error.types }}</span>
+                        <span class="errorTips">{{ error.types|striptags }}</span>
                     </li>
                     <script>
                         var atype_id = $('#atype option:selected').val()

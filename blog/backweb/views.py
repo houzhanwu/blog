@@ -40,12 +40,15 @@ class Index(View):
     管理后台首页地址
     """
     def get(self, request, *args, **kwargs):
+        ctype_id = request.GET.get('ctype_id')
         try:
             page = request.GET.get('page', 1)
         except Exception as e:
             page = 1
         atypes = AType.objects.filter(f_typeid=None)
         articles = Article.objects.all().order_by('-id')
+        if ctype_id:
+            articles = articles.filter(types=ctype_id)
         paginator = Paginator(articles, ARTICLE_NUMBER)
         articles = paginator.page(page)
         return render(request, 'backweb/index.html', {'atypes': atypes, 'articles': articles})
@@ -106,7 +109,22 @@ class EditArticle(View):
         return render(request, 'backweb/article_detail.html', {'article': article, 'atypes': atypes})
 
     def post(self, request, *args, **kwargs):
-        pass
+        aid = kwargs['id']
+        article = Article.objects.get(id=aid)
+
+        form = ArticleForm(request.POST, instance=article)
+        # 校验form表单中的参数，使用is_valid()方法校验，验证成功则返回True，否则为False
+        if form.is_valid():
+            # 使用form表单保存数据
+            form.save()
+            # 保存成功后，跳转到首页
+            return redirect('backweb:index')
+        else:
+            article = Article.objects.get(id=aid)
+            atypes = AType.objects.filter(f_typeid=None)
+            return render(request, 'backweb/article_detail.html', {'article': article,
+                                                                   'error': form.errors,
+                                                                   'atypes': atypes})
 
 
 class ChangePwd(View):
@@ -125,4 +143,3 @@ class ChangePwd(View):
             user.save()
 
         return render(request, 'backweb/change_pwd.html', {'error': form.errors})
-

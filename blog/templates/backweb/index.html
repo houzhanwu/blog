@@ -19,7 +19,7 @@
     function get_ctype(){
         var atype_id = $('#atype').val()
         $.get('/backweb/get_ctypes/?f_id=' + atype_id, function(data){
-            ctype_options = ''
+            ctype_options = '<option>请选择分类</option>'
             for(var i=0; i<data.c_types.length; i++){
                 ctype_option = '<option value="' + data.c_types[i].id + '">' + data.c_types[i].types + '</option>'
                 ctype_options += ctype_option
@@ -29,7 +29,7 @@
     }
 
     $.get('/backweb/get_ctypes/?f_id=' + {{ atypes.0.id }}, function(data){
-        ctype_options = ''
+        ctype_options = '<option>请选择分类</option>'
         for(var i=0; i<data.c_types.length; i++){
             ctype_option = '<option value="' + data.c_types[i].id + '">' + data.c_types[i].types + '</option>'
             ctype_options += ctype_option
@@ -55,6 +55,11 @@
         })
     }
 
+    function change_search(){
+        var atype_id = $('#select_lang option:selected').val()
+        $('.search_types').attr('href', '/backweb/index/?ctype_id=' + atype_id)
+    }
+
  </script>
 {% endblock %}
 
@@ -78,10 +83,12 @@
                     <option value="{{ atype.id }}">{{ atype.types }}</option>
                 {% endfor %}
             </select>
-            <select class="select" id="select_lang">
+            <select class="select" id="select_lang" onchange="change_search();">
                 <option>选择分类</option>
             </select>
-            <input type="button" value="查询" class="group_btn"/>
+            <a href="" class="search_types">
+                <input type="button" value="查询" class="group_btn"/>
+            </a>
         </section>
         <table class="table">
             <tr>
