@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8eac803-d22d-4e6b-bed7-fef98bf17973" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/backweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/backweb/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/backweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/backweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/article_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/article_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/change_pwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/change_pwd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/base_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/base_main.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="-3">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
               <folding>
                 <element signature="e#1#44#0" expanded="true" />
               </folding>
@@ -30,11 +27,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="base_main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base_main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="110">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -74,6 +80,7 @@
       <find>select_lang</find>
       <find>group_btn</find>
       <find>search_types</find>
+      <find>redirect</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -96,7 +103,6 @@
         <option value="$PROJECT_DIR$/blog/templates/backweb/login.html" />
         <option value="$PROJECT_DIR$/blog/blog/__init__.py" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/base.html" />
-        <option value="$PROJECT_DIR$/blog/templates/backweb/base_main.html" />
         <option value="$PROJECT_DIR$/requeirement.txt" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/product_detail.html" />
         <option value="$PROJECT_DIR$/blog/blog/urls.py" />
@@ -114,9 +120,10 @@
         <option value="$PROJECT_DIR$/blog/templates/backweb/change_pwd.html" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/article_detail.html" />
         <option value="$PROJECT_DIR$/blog/blog/settings.py" />
-        <option value="$PROJECT_DIR$/blog/backweb/urls.py" />
-        <option value="$PROJECT_DIR$/blog/backweb/views.py" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/index.html" />
+        <option value="$PROJECT_DIR$/blog/backweb/urls.py" />
+        <option value="$PROJECT_DIR$/blog/templates/backweb/base_main.html" />
+        <option value="$PROJECT_DIR$/blog/backweb/views.py" />
       </list>
     </option>
   </component>
@@ -150,41 +157,19 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="backweb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="backweb" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,11 +241,11 @@
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17748092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20992367" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44176137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44176137" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,20 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -425,13 +396,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/backweb/product_list.html" />
-    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/env/blogenv/Lib/site-packages/DjangoUeditor/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -486,13 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="498" column="8" selection-start-line="498" selection-start-column="8" selection-end-line="498" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -590,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/backweb/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -628,10 +575,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="-3">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding>
             <element signature="e#1#44#0" expanded="true" />
           </folding>

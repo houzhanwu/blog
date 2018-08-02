@@ -7,6 +7,7 @@ from backweb import views
 urlpatterns = [
     # 登录
     path('login/', views.Login.as_view(), name='login'),
+    path('logout/', views.Logout.as_view(), name='logout'),
     path('index/', login_required(views.Index.as_view()), name='index'),
     path('add_article/', login_required(views.AddArticle.as_view()), name='add_article'),
     path('get_ctypes/', login_required(views.GetCtypes.as_view()), name='get_ctypes'),

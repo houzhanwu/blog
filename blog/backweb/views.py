@@ -35,6 +35,15 @@ class Login(View):
             return render(request, 'backweb/login.html', {'error': form.errors})
 
 
+class Logout(View):
+    """
+    注销账户
+    """
+    def get(self, request, *args, **kwargs):
+        auth.logout(request)
+        return redirect('backweb:login')
+
+
 class Index(View):
     """
     管理后台首页地址
