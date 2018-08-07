@@ -16,12 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # 博客前台
     path('blog/', include(('app.urls', 'app'), namespace='blog')),
+    # 管理后台
     path('backweb/', include(('backweb.urls', 'backweb'), namespace='backweb')),
     #  编辑器配置
-    path(r'^ueditor/',include('DjangoUeditor.urls' ))
+    path(r'^ueditor/',include('DjangoUeditor.urls' )),
+    # 首页
+    path(r'', views.Index.as_view())
 
 ]

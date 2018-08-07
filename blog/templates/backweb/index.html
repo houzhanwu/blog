@@ -96,8 +96,10 @@
                 <th>文章名称</th>
                 <th>文章描述</th>
                 <th>类型</th>
+                <th>是否展示</th>
                 <th>创建时间</th>
-                <th>操作</th>
+                <th>编辑操作</th>
+                <th>展示/不展示操作</th>
             </tr>
             {% for article in articles %}
                 <tr>
@@ -105,11 +107,19 @@
                     <td class="center">{{ article.title }}</td>
                     <td class="center">{{ article.desc }}</td>
                     <td class="center">{{ article.types.types }}</td>
+                    <td class="center">{% if article.is_show %} 展示 {% else %} 不展示 {% endif %}</td>
                     <td class="center">{{ article.create_time }}</td>
                     {% csrf_token %}
                     <td class="center">
                         <a href="{% url 'backweb:edit_article' article.id %}" title="编辑" class="link_icon">&#101;</a>
                         <a onclick="article_delete({{ article.id }});" title="删除" class="link_icon">&#100;</a>
+                    </td>
+                    <td class="center">
+                        {% if article.is_show %}
+                            <a href="{% url 'backweb:change_art_show' article.id %}">不展示</a>
+                        {% else %}
+                            <a href="{% url 'backweb:change_art_show' article.id %}">展示</a>
+                        {% endif %}
                     </td>
                 </tr>
             {% endfor %}

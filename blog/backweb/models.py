@@ -14,6 +14,7 @@ class AType(models.Model):
         return {
             'id': self.id,
             'types': self.types,
+            'article_count': self.article_set.count(),
             'f_typeid': self.f_typeid,
         }
 
@@ -29,3 +30,13 @@ class Article(models.Model):
     class Meta:
         db_table = 'article'
 
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'title': self.title,
+            'types': self.types.types,
+            'desc': self.desc,
+            'is_show': self.is_show,
+            'content': self.content,
+            'create_time': self.create_time.strftime('%Y-%m-%d')
+        }

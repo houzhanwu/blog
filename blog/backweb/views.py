@@ -49,6 +49,7 @@ class Index(View):
     管理后台首页地址
     """
     def get(self, request, *args, **kwargs):
+        # 语言分类id
         ctype_id = request.GET.get('ctype_id')
         try:
             page = request.GET.get('page', 1)
@@ -152,3 +153,16 @@ class ChangePwd(View):
             user.save()
 
         return render(request, 'backweb/change_pwd.html', {'error': form.errors})
+
+
+class ChangeArtShow(View):
+    def get(self, request, *args, **kwargs):
+        id = kwargs['id']
+        article = Article.objects.filter(id=id).first()
+        if article:
+            if article.is_show:
+                article.is_show = False
+            else:
+                article.is_show = True
+            article.save()
+        return redirect('backweb:index')
