@@ -33,7 +33,7 @@ class Menu(View):
     菜单信息--> 文章分类和站长推荐
     """
     def get(self, *args, **kwargs):
-        articles = Article.objects.all()[:5]
+        articles = Article.objects.filter(is_recommend=True)[:5]
         atypes = AType.objects.filter(~Q(f_typeid=None))
         articles = [article.to_dict() for article in articles]
         atypes = [atype.to_dict() for atype in atypes]

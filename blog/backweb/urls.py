@@ -15,5 +15,5 @@ urlpatterns = [
     path('edit_article/<int:id>/', login_required(views.EditArticle.as_view()), name='edit_article'),
     path('change_pwd/', login_required(views.ChangePwd.as_view()), name='change_pwd'),
     path('change_art_show/<int:id>/', login_required(views.ChangeArtShow.as_view()), name='change_art_show'),
-
+    path('change_art_recommend/<int:id>/', login_required(views.ChangeArtRecommend.as_view()), name='change_art_recommend'),
 ]

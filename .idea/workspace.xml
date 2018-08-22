@@ -2,34 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8eac803-d22d-4e6b-bed7-fef98bf17973" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/templates/web/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/backweb/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/backweb/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/backweb/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/backweb/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/backweb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/backweb/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/web/images/wx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/adjust_funding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/discharge_statistic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/express_list.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/backweb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/base_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/base_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/web/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/web/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/backweb/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/order_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/order_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/pay_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/product_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/recycle_bin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/sales_volume.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/setting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/user_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/user_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/backweb/user_rank.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,23 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/app/views.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/backweb/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-              <folding>
-                <element signature="e#23#66#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3399">
+              <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/backweb/index.html">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/backweb/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
+            <state relative-caret-position="264">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -64,17 +54,17 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state relative-caret-position="231">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="158" column="44" lean-forward="true" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
+            <state relative-caret-position="265">
+              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -82,17 +72,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/backweb/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -119,19 +100,22 @@
       <find>/select</find>
       <find>submit</find>
       <find>^controller</find>
-      <find>get_ctype</find>
       <find>article_delete</find>
       <find>error</find>
       <find>max_length</find>
       <find>atype</find>
       <find>这个字段是必填项</find>
       <find>errorTips</find>
-      <find>select_lang</find>
       <find>group_btn</find>
-      <find>search_types</find>
       <find>redirect</find>
       <find>index_id</find>
       <find>ndex</find>
+      <find>search_page</find>
+      <find>get_ctype</find>
+      <find>search_types</find>
+      <find>change_search</find>
+      <find>select_lang</find>
+      <find>ctype_id</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -158,14 +142,12 @@
         <option value="E:/env/blogenv/Lib/site-packages/DjangoUeditor/views.py" />
         <option value="$PROJECT_DIR$/blog/static/backweb/js/functions/common.js" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/change_pwd.py" />
-        <option value="$PROJECT_DIR$/blog/templates/backweb/menu.html" />
         <option value="$PROJECT_DIR$/blog/backweb/forms.py" />
         <option value="$PROJECT_DIR$/blog/static/backweb/css/style.css" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/change_pwd.html" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/article_detail.html" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/base_main.html" />
         <option value="$PROJECT_DIR$/blog/templates/web/left.html" />
-        <option value="$PROJECT_DIR$/blog/backweb/models.py" />
         <option value="$PROJECT_DIR$/blog/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/web/about.html" />
         <option value="$PROJECT_DIR$/blog/templates/web/base.html" />
@@ -173,13 +155,15 @@
         <option value="$PROJECT_DIR$/blog/templates/web/info.html" />
         <option value="$PROJECT_DIR$/blog/app/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/web/base_main.html" />
-        <option value="$PROJECT_DIR$/blog/blog/settings.py" />
         <option value="$PROJECT_DIR$/blog/templates/web/list.html" />
         <option value="$PROJECT_DIR$/blog/templates/web/search.html" />
+        <option value="$PROJECT_DIR$/blog/backweb/models.py" />
+        <option value="$PROJECT_DIR$/blog/app/views.py" />
+        <option value="$PROJECT_DIR$/blog/blog/settings.py" />
+        <option value="$PROJECT_DIR$/blog/templates/backweb/menu.html" />
         <option value="$PROJECT_DIR$/blog/backweb/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/backweb/index.html" />
         <option value="$PROJECT_DIR$/blog/backweb/views.py" />
-        <option value="$PROJECT_DIR$/blog/app/views.py" />
       </list>
     </option>
   </component>
@@ -197,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,23 +197,25 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="backweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/wordspace/4.django/axf4" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -268,7 +253,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blog/manage.py" />
-      <option name="PARAMETERS" value="runserver 8084" />
+      <option name="PARAMETERS" value="runserver 8085" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -288,26 +273,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <frame x="-9" y="-9" width="1042" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22646311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18373494" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50127226" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.4403409" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.35185185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5248227" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.52279204" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49872774" weight="0.39488637" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49872774" weight="0.5947368" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -315,24 +300,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="39" />
+      <option name="time" value="42" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/backweb/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -358,13 +329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -404,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requeirement.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/env/blogenv/Lib/site-packages/DjangoUeditor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -418,13 +375,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/product_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2258">
-          <caret line="190" column="7" lean-forward="true" selection-start-line="190" selection-start-column="7" selection-end-line="190" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/product_detail.html" />
     <entry file="file://$PROJECT_DIR$/blog/static/backweb/js/functions/common.js" />
     <entry file="file://E:/env/blogenv/Lib/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -433,20 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/discharge_statistic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5002">
-          <caret selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/discharge_statistic.html" />
     <entry file="file://E:/env/blogenv/Lib/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
@@ -536,55 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base_main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/web/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/web/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4422">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/web/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -613,55 +502,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/base_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/env/blogenv/Lib/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="409" selection-start-line="409" selection-end-line="409" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/web/base_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
+        <state relative-caret-position="-287">
           <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/backweb/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="120" column="81" selection-start-line="120" selection-start-column="81" selection-end-line="120" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="158" column="44" lean-forward="true" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="18" column="56" lean-forward="true" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-          <folding>
-            <element signature="e#23#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="443">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/web/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="119" column="14" lean-forward="true" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/web/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/user_detail.html" />
+    <entry file="file://$PROJECT_DIR$/blog/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requeirement.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/backweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/backweb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3399">
+          <caret line="103" column="44" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/backweb/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/backweb/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
         </state>
       </provider>
     </entry>

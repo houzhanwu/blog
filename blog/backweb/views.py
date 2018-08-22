@@ -50,18 +50,39 @@ class Index(View):
     """
     def get(self, request, *args, **kwargs):
         # 语言分类id
-        ctype_id = request.GET.get('ctype_id')
+
+        ctype_id = request.GET.get('select_lang')
+        art_is_show = request.GET.get('art_is_show')
+        art_is_recommend = request.GET.get('art_is_recommend')
+        select_lang_name = ''
         try:
             page = request.GET.get('page', 1)
         except Exception as e:
             page = 1
         atypes = AType.objects.filter(f_typeid=None)
         articles = Article.objects.all().order_by('-id')
+
+        # 过滤文章分类
         if ctype_id:
+            # django2.0版本中外键的查询，查询字段=对象，或则查询字段__id=id，或则查询字段=id
             articles = articles.filter(types=ctype_id)
+            # 当前选择分类名
+            select_lang_name = AType.objects.filter(id=ctype_id).first().types
+        # 过滤是否展示
+        if art_is_show:
+            articles = articles.filter(is_show=art_is_show)
+        # 过滤是否推荐
+        if art_is_recommend:
+            articles = articles.filter(is_recommend=art_is_recommend)
+
         paginator = Paginator(articles, ARTICLE_NUMBER)
         articles = paginator.page(page)
-        return render(request, 'backweb/index.html', {'atypes': atypes, 'articles': articles})
+        return render(request, 'backweb/index.html', {'atypes': atypes,
+                                                      'page': page,
+                                                      'articles': articles,
+                                                      'select_lang_name': select_lang_name,
+                                                      'is_show': art_is_show,
+                                                      'is_recommend': art_is_recommend})
 
 
 class AddArticle(View):
@@ -156,6 +177,9 @@ class ChangePwd(View):
 
 
 class ChangeArtShow(View):
+    """
+    修改文章的展示状态
+    """
     def get(self, request, *args, **kwargs):
         id = kwargs['id']
         article = Article.objects.filter(id=id).first()
@@ -165,4 +189,22 @@ class ChangeArtShow(View):
             else:
                 article.is_show = True
             article.save()
-        return redirect('backweb:index')
+        # return redirect('backweb:index')
+        return redirect('/backweb/index/?art_is_show=0')
+
+
+class ChangeArtRecommend(View):
+    """
+    修改文章的推荐状态
+    """
+    def get(self, request, *args, **kwargs):
+        id = kwargs['id']
+        article = Article.objects.filter(id=id).first()
+        if article:
+            if article.is_recommend:
+                article.is_recommend = False
+            else:
+                article.is_recommend = True
+            article.save()
+        # return redirect('backweb:index')
+        return redirect('/backweb/index/?art_is_show=0')
